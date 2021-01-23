@@ -1,0 +1,5 @@
+<div [class.car-Style-Wrap]="true">
+ <div [class.car-Style]="true"> {{car.producer}} - {{car.model}} - {{car.power}} - {{car.price}} <div><a [routerLink]="[car.id]">Info</a></div></div>
+</div>
+
+<router-outlet></router-outlet>

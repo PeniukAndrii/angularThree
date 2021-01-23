@@ -1,0 +1,14 @@
+.car-Style{
+  background-color: lightgray;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.car-Style-Wrap{
+  display: block;
+  width: 300px;
+}
